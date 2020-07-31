@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/AutoWidthColumn.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--column breaks and auto width column-->
+    <div class="container cbox">
+        <div class="row arow">  
+            <div class="col-4 adiv"></div>
+            <div class="col-4 bdiv"></div>
+            <div class="w-100"></div>
+            <div class="col-4 cdiv"></div>
+            <div class="w-100"></div>
+            <div class="col-4 ddiv"></div>
+        </div>
+    </div>
+    <br/>
+    <!--Set column order in bootstrap-->
+    
+    <div class="container cbox">
+        <div class="row">
+            <div class="col-3 order-md-1 order-sm-2 adiv"><h1 class="text-center">First</h1></div>
+            <div class="col-3 order-md-2 order-sm-1 bdiv"><h1 class="text-center">Second</h1></div>
+            <div class="col-3 order-md-3 order-sm-3 cdiv"><h1 class="text-center">Third</h1></div>
+            <div class="col-3 order-md-4 order-sm-4 ddiv"><h1 class="text-center">Fourth</h1></div>
+        </div>
+    </div>
+    <br/>
+<!--Offset Column in Bootstrap-->
+<div class="container cbox">
+    <div class="row">
+        <div class=" col-md-3 adiv"></div>
+        <div class=" col-md-3 offset-md-6 bdiv"></div>
+       
+    </div>
+</div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

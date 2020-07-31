@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato' , sans-serif;
+    font-size: 16px;
+    background-image: url(../1775119.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.nav
+{
+    width: 100%;
+    background-color: lightslategrey;
+    
+    color:white;
+}
+.menu{
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav .menu .menu-item
+{
+display: inline-block;
+position: relative;
+}
+.menu-item:hover{
+    background-color: violet;
+}
+.nav .menu .menu-item a {  
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.submenu
+{
+    display: none;
+    position: absolute;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-transform: none;
+
+
+}
+.menu-item:hover .submenu{
+    display: block;
+   
+
+}
+.nav .menu .menu-item.submenu.submenu-item a {  
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: none;
+}
+.dbsubmenu{
+display: none;
+position:relative;
+width: 220px;
+background-color: rgba(0, 0, 0, 0.1);
+text-transform: none;
+}
+.submenu-item:hover .dbsubmenu{
+    display: block;
+}
+
+

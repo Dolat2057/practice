@@ -1,0 +1,22 @@
+.cbox{
+    border: 5px solid;
+}
+.arow{
+    border: 10px solid yellow;
+}
+.adiv{
+    height: 60px;
+    background-color: red;
+}
+.bdiv{
+    height: 60px;
+    background-color: violet;
+}
+.cdiv{
+    height: 60px;
+    background-color: rgb(0, 255, 85);
+}
+.ddiv{
+    height: 60px;
+    background-color: rgb(195, 0, 255);
+}

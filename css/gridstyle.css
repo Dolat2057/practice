@@ -1,0 +1,27 @@
+.cbox{
+    border: 3px solid;
+}
+.arow{
+    border: 3px solid yellow;
+}
+.adiv{
+   border: 3px solid blue;
+}
+.bdiv{
+    border: 3px solid violet;
+}
+.cdiv{
+    border: 3px solid green;
+}
+.ddiv{
+    border: 3px solid orange;
+
+}
+.ediv{
+    height: 60px;
+    background-color: rgb(255, 0, 255);
+}
+.fdiv{
+    height: 60px;
+    background-color: darkgreen;
+}

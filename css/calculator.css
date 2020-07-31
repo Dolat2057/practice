@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: indigo;
+    
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3.5px;
+cursor: pointer;
+background-color: #607d8b;
+border:  2px solid red;
+color: yellow;
+}
+.textview{
+    width: 217px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color: #1f90c8;
+    border:  solid orangered;
+
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
